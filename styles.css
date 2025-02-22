@@ -1,0 +1,148 @@
+/* I certify that the CSS file I am submitting is all my own work.
+ None of it is copied from any source or any person.
+ Signed: Bryce Beeskow.
+ Date: 2/16/2025*/
+/*
+ Author: Bryce Beeskow
+ Date: 2/16/2025
+ Class: CSC135
+ Project: Assignment 6
+ File Name: styles.css
+ Description: CSS code for calculator
+*/
+/* Add references if applicable */
+/* Styling for whole document -- add comments throughout your file */ 
+
+/* Basic layout for the page */
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: gray;
+    height: 100vh;
+}
+
+/* Styling for the calculator title */
+h1 {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Layout and alignment for calculator */
+.calculator {
+    width: 210px;
+    margin-top: 50px;
+    background-color: darkslategray;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+/*buttons */
+.display {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    width: 95%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Button styles */
+button {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    
+}
+
+/* Different button colors */
+.button, 
+.point {
+    background-color: lightgray;
+    color: black;
+}
+
+/*background color when you hover over numbers and point*/
+.button:hover, 
+.point:hover {
+    background-color: #ddd;
+}
+
+/*mrc,m+,m- colors*/
+.mrc,
+.mplus,
+.m- {
+    background-color: #E0AFFF;
+    color: black;
+}
+
+/*mrc,m+,m- hover color*/
+.mrc:hover,
+.mplus:hover,
+.m-:hover {
+    background-color: purple;
+}
+
+/*clear button colors*/
+.clear {
+    background-color: lightcoral;
+    color: black;
+}
+
+/*clear button hover color*/
+.clear:hover {
+    background-color: crimson;
+}
+
+/*equals button colors*/
+.equals {
+    background-color: lightgreen;
+    color: black;
+}
+
+/*equals button hover color*/
+.equals:hover {
+    background-color: mediumseagreen;
+}
+
+/* operators button colors*/
+.plus,
+.minus,
+.multiply,
+.division {
+    background-color: #e07c4f;
+    color: black;
+}
+
+/* operators button hover color*/
+.plus:hover,
+.minus:hover,
+.multiply:hover,
+.division:hover {
+    background-color: darkorange;
+}
+
+
+/* Layout for rows*/
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+
